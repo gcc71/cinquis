@@ -2,7 +2,7 @@
 import sys
 # appending a path
 sys.path.append('../src')
-import cinquis.tautil as ti
+import cinquis.bow as bw
 
 some_text = """
 Franco Zeffirelli was a well-respected Italian stage and film director, producer, production designer, and politician. So when Zeffirelli,
@@ -11,12 +11,12 @@ would be no nudity shown, they said they believed him. Citizens: “Hey that Cov
 for that not to happen again. Can we address the ethicality of our biological research and put measures in place to ensure this doesn’t happen again?”
 """
 
-sentence = """This is a sentence that has some organization to it, and is well-respeced Pandemic
-    with a basic syntactical development for use with testing this software baseline."""
+sentence = """Can we address the ethicality of our biological research and
+put measures in place to ensure this doesn’t happen again?"""
 
 
 def main():
-    print('test_tautil')
+    print('test_bow')
 
 
     #print('tokenize test')
@@ -36,7 +36,7 @@ def main():
     print('bag of words test')
 
 
-    print(ti.bag_of_words(sentence, some_text))
+    print(bw.bag_of_words(sentence, some_text))
     print('test complete')
 
 

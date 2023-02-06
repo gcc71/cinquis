@@ -7,12 +7,12 @@ import cinquis.intents as ci
 
 def main():
     print('test_intents')
-    varNumcorpus = 'Corpus/varNum.txt'
-    varStringcorpus = 'Corpus/varStr.txt'
-    varVarcorpus = 'Corpus/varVar.txt'
-    ci.addIntent("Num", varNumcorpus, "var number assignment")
-    ci.addIntent("Str", varStringcorpus, "var string assignment")
-    ci.addIntent("Var", varVarcorpus, "var var assignment")
+    varNumcorpus = 'Corpus/r1.txt'
+    varStringcorpus = 'Corpus/r2.txt'
+    varVarcorpus = 'Corpus/r3.txt'
+    ci.addIntent("trump", varNumcorpus, "trump news")
+    ci.addIntent("covid", varStringcorpus, "covid news")
+    ci.addIntent("biden", varVarcorpus, "biden news")
     ci.createIntents('intents.json')
     print('test complete')
 

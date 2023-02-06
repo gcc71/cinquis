@@ -1,57 +1,41 @@
 {
     "intents": [
         {
-            "tag": "Num",
+            "tag": "trump",
             "responses": [
-                "var number assignment"
+                "trump news"
             ],
             "patterns": [
-                "int myNum = 5;",
-                "double myFloatNum = 5.99;",
-                "int myNum;",
-                "myNum = 15;",
-                "int salary;",
-                "salary = 50000;",
-                "salary += 50000;",
-                "salary = salary+ 10000;",
-                "int    i, j, k;",
-                "float  f, salary;",
-                "double d;",
-                "extern int a, b;",
-                "extern int c;",
-                "extern float f;",
-                "int a, b;",
-                "int c;",
-                "float f;",
-                "a = 10;",
-                "b = 20;",
-                "c = a + b;"
+                "The Chinese Balloon situation is a disgrace, just like the Afghanistan horror show, and everything else surrounding the grossly incompetent Biden Administration. They are only good at cheating in elections, and disinformation \u2014 and now they are putting out that a Balloon was put up by China during the Trump Administration, in order to take the \u201cheat\u201d off the slow moving Biden fools.",
+                "China had too much respect for \u201cTRUMP\u201d for this to have happened, and it NEVER did. JUST FAKE DISINFORMATION! For all of my many supporters, and the number is higher than ever before, I am pleased to report that \u201cour\u201d Poll numbers are Excellent.",
+                "Polls are important, but many have proven to be so corrupt, wrong, or incompetent in the past, especially, those of ABC FAKE NEWS/WASHINGTON COMPOST; FOX FAKE NEWS; and NBC FAKE NEWS/GLOBALIST STREET JOURNAL, that they have become somewhat meaningless, just a political weapon.",
+                "CNN Polls no longer matter in that so few people are watching CNN (and MSDNC) anymore!"
             ]
         },
         {
-            "tag": "Str",
+            "tag": "covid",
             "responses": [
-                "var string assignment"
+                "covid news"
             ],
             "patterns": [
-                "char myLetter = 'D';",
-                "string myText = \"Hello\";",
-                "var = \"test one\";",
-                "myvar = \"a string\""
+                "The US government is not interested in discovering who engineered the pathogen that killed 6.84 million people?",
+                "Not only are they not interested in finding out, they actively censored journalists and scientists who spoke out about it.",
+                "Folks, the US government is compromised.",
+                "The growing body of evidence strongly indicate SARS-CoV-2 was human-engineered.",
+                "ANYONE who is not interested in finding out who is responsible for the pathogen that killed nearly 7 million people\u2026 is an enemy.",
+                "Ye will know them by their fruits.",
+                "Important thread on Chinese MIL and their stance on the US Biolabs in Ukraine.",
+                "All of the escalations in geopolitics can be traced back to the fact that Russia and China are accusing the US of creating biological weapons in Ukraine. And the American public has no idea."
             ]
         },
         {
-            "tag": "Var",
+            "tag": "biden",
             "responses": [
-                "var var assignment"
+                "biden news"
             ],
             "patterns": [
-                "c = a + b;",
-                "var1 = var2;",
-                "myvar = c;",
-                "var1 = a;",
-                "var2 = c;",
-                "c = var1;"
+                "The FBI seemed to have interfered in the 2020 election to help Joe Biden by encouraging Big Tech to censor Americans about the Hunter Biden laptop and other debates! And they\u2019re trying to cover it up! Federal Air Marshals & Biden Admin Failures w/ Sonya Hightower LaBosco.",
+                "We have filed a federal lawsuit against the DOJ to get FBI documents on the Big Tech censorship scandal of the Hunter Biden laptop:the real election interference story! NOT JUST TRUMP is being censored -- We're all being targeted by Big Tech Censors! TEXT WATCH to 30807 to receive uncensored updates from Judicial Watch!"
             ]
         }
     ]
